@@ -167,7 +167,7 @@ main{
     background-color: var(--mb-hover);
 }
 
-#facebook{
+/* #facebook{
     border-top: 3px solid #178FF5;
 }
 
@@ -181,7 +181,7 @@ main{
 
 #youtube{
     border-top: 3px solid #C4032B;
-}
+} */
 
 .media-icon{
     display: flex;
@@ -327,12 +327,6 @@ main{
     text-transform: capitalize;
 }
 
-/* #countnumber{
-    position: absolute;
-    top: 70%;
-    left: 11%;
-} */
-
 #countnumber #countup{
     display: flex;
     align-items: center;
@@ -362,7 +356,7 @@ main{
     font-weight: 700;
 }
 
-#countup #triangle-2, #countup #triangle-7, #countup #triangle-8{
+#triangle-2, #triangle-7, #triangle-8{
     border-top: 5px solid red;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
@@ -370,7 +364,7 @@ main{
     font-weight: 700;
 }
 
-#countup #inc-2, #countup #inc-7,  #countup #inc-8{
+#inc-2, #inc-7, #inc-8{
     color: red;
     font-weight: 700;
 }

@@ -2,6 +2,7 @@
   "media-banner":
     [
       {
+        "border_color": "3px solid #178FF5",
         "media_id":"facebook",
         "media_logo": "./images/facebook.svg",
         "username": "@nathanf",
@@ -12,7 +13,8 @@
         "arrow_id": "arrow-up"  
       },
 
-      {
+      { 
+        "border_color": "3px solid #1DA1F2",
         "media_id":"twitter",
         "media_logo": "./images/twitter.svg",
         "username": "@nathanf",
@@ -23,7 +25,8 @@
         "arrow_id": "arrow-up"
       },
 
-      {
+      { 
+        "border_color": "3px solid linear-gradient(225deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%)",
         "media_id":"instagram",
         "media_logo": "./images/instagram.svg",
         "username": "@realnathanf",
@@ -35,6 +38,7 @@
       },
 
       {
+        "border_color": "3px solid #C4032B",
         "media_id":"youtube",
         "media_logo": "./images/youtube.svg",
         "username": "Nathan F.",
@@ -57,7 +61,6 @@
         "arrow_id": "arrow-up",
         "countup_color": "#1EB589"
       },
-
 
       {
         "metric": "likes",
