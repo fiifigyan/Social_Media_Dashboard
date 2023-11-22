@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () =>{
             <p id="countdigit">${card["count_digit"]}</p>
             <div id="countup">
                 <span class="arrow-direction" id="${card["arrow_id"]}" style="color:${card["countup_color"]}"></span>
-                <p class="increment" id="inc-1" style="color:${card["countup_color"]}">${card["increment"]}</p>
+                <p class="increment" style="color:${card["countup_color"]}">${card["increment"]}</p>
             </div>
         </div>
       </div>`;

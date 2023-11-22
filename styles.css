@@ -36,6 +36,7 @@
 body{
     background-color: var(--clr-dark);
     font-family: Inter;
+    height: 100dvh;
 }
 
 main{
@@ -167,22 +168,6 @@ main{
     background-color: var(--mb-hover);
 }
 
-/* #facebook{
-    border-top: 3px solid #178FF5;
-}
-
-#twitter{
-    border-top: 3px solid #1DA1F2;
-}
-
-#instagram{
-    border-top: 3px solid #f48e4b;
-}
-
-#youtube{
-    border-top: 3px solid #C4032B;
-} */
-
 .media-icon{
     display: flex;
     align-items: center;
@@ -242,6 +227,7 @@ main{
     justify-content: center;
     gap: 10px;
     margin: 30px 0;
+    font-weight: 700;
 }
 
 #counttoday{
@@ -253,14 +239,14 @@ main{
     line-height: normal;
 }
 
-.arrow-direction{
+#arrow-up{
     border-bottom: 5px solid #1EB589;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
 }
 
 #arrow-down{
-    border-top: 5px solid red;
+    border-top: 5px solid #DC414C;
     border-right: 5px solid transparent;
     border-left: 5px solid transparent;
     border-bottom: none;
@@ -295,7 +281,6 @@ main{
     border-radius: 5px;
     background: var(--clr-accent);
     padding: 20px 0;
-
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -344,33 +329,11 @@ main{
     line-height: normal;
 }
 
-#countup .triangle{
-    border-bottom: 5px solid #1EB589;
-    border-right: 5px solid transparent;
-    border-left: 5px solid transparent;
-}
-
  .overview-container .overview-banner #countup p{
     color: #1EB589;
     font-size: 12px;
     font-weight: 700;
 }
-
-#triangle-2, #triangle-7, #triangle-8{
-    border-top: 5px solid red;
-    border-right: 5px solid transparent;
-    border-left: 5px solid transparent;
-    border-bottom: none;
-    font-weight: 700;
-}
-
-#inc-2, #inc-7, #inc-8{
-    color: red;
-    font-weight: 700;
-}
-
-  
-
 
 /* Responsive tablet view */
 @media screen and (max-width: 768px) {

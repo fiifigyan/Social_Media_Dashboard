@@ -26,7 +26,7 @@
       },
 
       { 
-        "border_color": "3px solid linear-gradient(225deg, #DF4896 0%, #EE877E 50.91%, #FDC366 100%)",
+        "border_color": "3px solid #f48e4b",
         "media_id":"instagram",
         "media_logo": "./images/instagram.svg",
         "username": "@realnathanf",
